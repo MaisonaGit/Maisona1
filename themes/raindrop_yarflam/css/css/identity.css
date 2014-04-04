@@ -1,0 +1,23 @@
+#identity h3 {
+	font-weight:normal;
+	font-size:15px;
+}
+#identity p {
+	padding-bottom:10px;
+}
+#identity form.std fieldset {
+	margin-top:0;
+	padding:10px;
+}
+#identity .required {color:#333}
+
+#identity label sup {color:#990000;}
+
+#identity .std #security_informations {
+	font-size:11px;
+}
+
+#identity .select select{
+    width: auto;
+    display: inline-block;
+}

@@ -1,0 +1,1 @@
+$(document).ready(function () { $('#thumbs_list_frame').css({'position':'initial'}); });

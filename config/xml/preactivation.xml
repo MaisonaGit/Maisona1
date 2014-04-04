@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<partners>
+<partner>
+	<name><![CDATA[Mondial Relay]]></name>
+	<module>mondialrelay</module>
+	<checkconfiguration>
+		<key>%</key>
+		<key>%</key>
+		<key>%</key>
+	</checkconfiguration>
+	<logo><![CDATA[http://api.prestashop.com/partner/premium/images/mondialrelay.png]]></logo>
+	<labels>
+		<label iso="en"><![CDATA[Offer over 4900 drop-off and pick-up points at unbeatable prices]]></label>
+		<label iso="fr"><![CDATA[Offrez plus de 4900 points relais à des prix imbattables]]></label>
+		<label iso="es"><![CDATA[Ofrece más de 4.900 puntos de entrega y recogida a precios imbatibles]]></label>
+		<label iso="nl"><![CDATA[Biedt meer dan 4.900 afhaal- en leveringspunten aan tegen onovertrefbare prijzen]]></label>
+	</labels>
+	<optionals>
+	</optionals>
+	<descriptions>
+	</descriptions>
+</partner>
+<partner>
+	<name><![CDATA[Ecopresto]]></name>
+	<module>ecopresto</module>
+	<logo><![CDATA[http://api.prestashop.com/partner/premium/images/ecopresto.png]]></logo>
+	<labels>
+		<label iso="en"><![CDATA[Start dropshipping now: sell first and pay your providers later]]></label>
+		<label iso="fr"><![CDATA[Commencez le dropshipping: Vendez dès maintenant et payez vos fournisseurs ensuite]]></label>
+	</labels>
+	<optionals>
+	</optionals>
+	<descriptions>
+	</descriptions>
+</partner>
+</partners>

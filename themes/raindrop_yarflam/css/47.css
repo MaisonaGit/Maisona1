@@ -1,0 +1,458 @@
+/* *************************** footer ************************* */
+
+#footer { 	
+text-align: center; 	
+margin: 0 auto;
+}
+#footerbox 
+{	
+margin: 0 auto;	
+max-width: 1200px;
+}
+/* Module facebook */
+#footerContent 
+{
+    font-family: 'Basic';
+	font-size:12px;
+	vertical-align: top;
+	float: left;
+	max-width: 50px;
+	width: 50px;
+	padding-left: 100px;
+	padding-right: 240px;
+	margin-right:none;
+}
+
+/* Le footer perso */
+#footer47 
+{
+	display: inline;	
+	font-family: 'Arapey';	
+	font-size:20px;
+}
+
+/* Ses deux categories */
+#footer47 .catA
+{
+	display: inline-block;	
+	/* width: 70%; */
+    width: 30%;
+	border-left: 1px solid #6C6B6C;	
+	/*height: 12em;*/
+    height: 295px;
+	text-align: center;	
+	vertical-align: top; 
+	max-width: 375px; 
+}
+#footer47 .catB 
+{
+	display: inline-block;
+	/*width: 600px;*/
+    width: 30%;
+	border-left: 1px solid #6C6B6C;
+	/*height: 12em;*/
+    height: 295px;
+	text-align:justify;
+	vertical-align: top;	
+	max-width: 400px;
+	padding: 0px 20px;
+	padding-left:70px;
+}
+
+/* Leurs elements */
+#footer47 .catA ul 
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#footer47 .catA ul li 
+{ 
+list-style-image: none; 
+}
+
+#footer47, h1 
+{	
+	font-family: 'Arapey';	
+	font-size:20px; 	
+	text-align: center;
+	}
+	
+
+
+#footer2 p{
+    background-color: #c5c1c2;
+    font-family: 'Basic';
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+	vertical-align: bottom;
+}
+
+#footer2 {
+    background-color: #c5c1c2;
+    font-family: 'Basic';
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+	vertical-align: bottom;
+}
+
+#footer2 a {
+ font-family: 'Basic';
+ color: #000;
+ margin-left:15px;
+ font-size:14px;
+} 
+#footer2 a:hover {
+ color: #000;
+ text-decoration: underline;
+} 
+
+
+/* *************************** slogan **************************** */
+
+#sloganbox {
+max-width: 1200px;
+width:100%;
+ margin-top: 35px;
+margin-bottom: 35px;    
+text-align: center;
+
+
+}
+.divider {
+	font-family: 'Arapey-Regular';
+	text-transform: uppercase;	
+	font-size:24px;
+	color: #6C6B6C;
+}
+
+
+.divider hr {
+    margin-left:auto;
+    margin-right:auto;
+    width:25%;
+
+}
+
+
+.left {
+    float:left;
+    border-top: 1px dashed;
+}
+
+
+.right {
+    float:right;
+    border-top: 1px dashed;
+}
+
+/* ****************************************************** */
+/* 						nav-tab-home
+/* ****************************************************** */
+
+
+.frame_wrap_header2{
+	border-top: 1px solid #6C6B6C;
+	border-bottom: 1px solid #6C6B6C;
+    padding: 0;
+    margin: 0;
+	margin-top:10px;
+}
+
+.frame_wrap_header2.nav.nav-tabs > li{
+    margin: 0;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs > li > a{
+    font-family:'Arapey',psans, Arial, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 21px;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+    
+    margin-bottom:0px;
+    padding: 10px 15px;
+	border-top: 1px solid #6C6B6C;
+	border-right: 1px solid #6C6B6C;	
+
+}
+
+.frame_wrap_header2.nav.nav-tabs > li > a{
+    border:none;
+}
+.frame_wrap_header2.nav.nav-tabs > li > a:hover{
+    background: none;
+    text-decoration:underline;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs li:first-child > a{
+    margin-left: -4px;
+    padding-left: 24px;
+	border-right: 1px solid #6C6B6C;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs .active > a{
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+
+.frame_wrap_header2.nav.nav-tabs > li{
+    margin: 0;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs > li > a{
+    font-family: 'Arapey',psans, Arial, serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 21px;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+    
+    margin-bottom:0px;
+    padding: 10px 15px;
+	border-top: 1px solid #6C6B6C;
+	border-right: 1px solid #6C6B6C;	
+
+}
+
+.frame_wrap_header2.nav.nav-tabs > li > a{
+    border:none;
+}
+.frame_wrap_header2.nav.nav-tabs > li > a:hover{
+    background: none;
+    text-decoration:underline;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs li:first-child > a{
+    margin-left: -4px;
+    padding-left: 24px;
+	border-right: 1px solid #6C6B6C;
+}
+
+.frame_wrap_header2 > .fwh-title,
+.frame_wrap_header2.nav.nav-tabs .active > a{
+    background-color: transparent;
+    text-decoration:underline;
+}
+
+.frame_wrap_header2 > .fwh-title{
+    display: inline;
+    cursor: default;
+}
+.frame_wrap_header2 > .fwh-title > a{
+    color: #000;
+}
+
+.frame_wrap_header2.clearfix > .fwh-title{
+    float: left;
+}
+.frame_wrap_header2 > .fwh-nav{
+    float: right;
+    line-height: 1;
+    margin: 5px 10px 0 0;
+}
+/* ****************************************************** */
+
+
+/* ****************************************************** */
+/* 						nav-tab-PRODUCT-LIST
+/* ****************************************************** */
+
+#layered_block_left .frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs > li > a{
+    font-family: 'Arapey-Regular', psans, Arial, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 21px;
+    color: #000;
+	text-transform:uppercase;
+}
+	
+.frame_wrap_header{
+
+    padding: 0;
+    margin: 0;
+	margin-top:10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+}
+
+.frame_wrap_header.nav.nav-tabs > li{
+    margin: 0;
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs > li > a{
+    font-family: 'Arapey-Regular', psans, Arial, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    color: #000;
+	text-transform:uppercase;
+
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+    
+    margin-bottom:0px;
+    padding: 10px 15px;
+	padding-bottom: 5px;
+
+}
+
+.frame_wrap_header.nav.nav-tabs > li > a{
+    border:none;
+}
+.frame_wrap_header.nav.nav-tabs > li > a:hover{
+    background: none;
+	text-decoration:underline;
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs li:first-child > a{
+    margin-left: -4px;
+    padding-left: 24px;
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs .active > a{
+    background-color: transparent;
+}
+
+
+.frame_wrap_header.nav.nav-tabs > li{
+    margin: 0;
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs > li > a{
+    font-family: 'Arapey-Regular', psans, Arial, serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+	text-transform:uppercase;
+    color: #000;
+
+    -webkit-font-smoothing: antialiased; 
+    font-smoothing: antialiased;
+    
+    margin-bottom:0px;
+    padding: 10px 15px;
+
+}
+
+.frame_wrap_header.nav.nav-tabs > li > a{
+    border:none;
+}
+.frame_wrap_header.nav.nav-tabs > li > a:hover{
+    background: none;
+	text-decoration:underline;
+
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs li:first-child > a{
+    margin-left: -4px;
+    padding-left: 24px;
+}
+
+.frame_wrap_header > .fwh-title,
+.frame_wrap_header.nav.nav-tabs .active > a{
+    background-color: transparent;
+}
+
+.frame_wrap_header > .fwh-title{
+    display: inline;
+    cursor: default;
+}
+.frame_wrap_header > .fwh-title > a{
+    color: #000;
+}
+
+.frame_wrap_header.clearfix > .fwh-title{
+    float: left;
+}
+.frame_wrap_header > .fwh-nav{
+    float: right;
+    line-height: 1;
+    margin: 5px 10px 0 0;
+}
+/* ****************************************************** */
+
+#more_info_tabs a{
+font-family: 'Arapey-Regular';
+font-size: 18px;
+color: #000;
+font-weight: normal;
+}
+
+#short_description_block, p{
+font-family: Arial-Regular;
+font-size: 20px;
+color: #000;
+}
+
+.form-group label{
+font-family: 'Arapey-Regular';
+font-size: 18px;
+color: #000;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+#availability_statut {
+font-family: 'Arapey-Regular';
+font-size: 17px;
+color: #000;
+}
+
+#product_footer .frame_wrap{
+border-top: 1px solid #000;
+border-bottom: 1px solid #000;
+}
+
+#product_footer .fwh-title{
+font-family: 'Arapey-Regular';
+font-size: 20px;
+color: #000;
+font-weight: normal;
+text-transform: uppercase;
+}
+
+#productscategory {
+border-top: none;
+border-bottom: none;
+
+}
+
+@font-face {
+	font-family: 'Arapey-Italic';
+	src: url(../fonts/Arapey-Italic.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'Arapey-Regular';
+	src: url(../fonts/Arapey-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Basic';
+	src: url(../fonts/Basic-Regular.ttf) format("truetype");
+}

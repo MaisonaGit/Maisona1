@@ -1,0 +1,141 @@
+/*
+    Common
+*/
+#product_wrapper.grid .item,
+#product_wrapper.list .item{
+    position: relative;
+}
+
+#products_wrapper .row {
+    margin-bottom: 20px;
+}
+
+/*
+    Product Grid View
+*/
+#product_wrapper.grid .comparator{
+    float:left;
+    margin: 2px 5px 0 0;
+}
+
+#product_wrapper.grid .cc-product .compare_block{
+    display:none;
+}
+
+#product_wrapper.grid .cc-product .btn.exclusive_small{
+    display:none;
+}
+
+#product_wrapper.grid .compare,
+#product_wrapper.grid .compare label{
+    margin:0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#product_wrapper.grid .compare_block,
+#product_wrapper.grid .price{
+    margin-top:5px;
+}
+
+#product_wrapper.grid .prod_desc{
+    display:none;
+}
+
+#product_wrapper.grid .cc-product-hover .cc-price{
+    float:none;
+    margin-top:0;
+}
+
+#product_wrapper.grid .cc-product-hover .cc-price .content_price{
+    float:right;
+    margin-top: 2px;
+}
+
+#product_wrapper.grid .cc-product-hover .cc-price .btn{
+    float:left;
+}
+
+#product_wrapper.grid .compare_block{
+    clear:both;
+}
+
+#product_wrapper.grid .cc-product-hover .exclusive_small{
+    margin-top:0;
+    float: left;
+    margin-top: 7px;
+}
+
+#product_wrapper.grid .cc-product-hover .compare{
+    margin-top:10px;
+    color:#444;
+}
+
+#product_wrapper.grid .cc-product-hover .ajax_add_to_cart_button{
+    float:left;
+}
+
+/*
+    Product Grid View
+*/
+
+#product_wrapper.list .row .item {
+    width: 100%;
+    margin: 0 0 50px 0;
+}
+
+#product_wrapper.list .cc-product {
+    border: none;
+}
+
+#product_wrapper.list .row .item .cc-product .cc-img {
+    width: 20%;
+    float: left;
+}
+
+#product_wrapper.list .row .item .cc-product .cc-foot {
+    width: 70%;
+    float: left;
+    margin-left: 20px;
+}
+
+#product_wrapper.list .row .cc-foot {
+    background: none;
+}
+
+#product_wrapper.list .cc-title, 
+#product_wrapper.list .cc-price {
+    font-size: 18px;
+}
+
+#product_wrapper.list .cc-price {
+    margin-top: 3px;
+}
+
+#product_wrapper.list .prod_desc {
+    margin-top: 20px;
+}
+
+#product_wrapper.list .prod_desc a{
+    color:#333333;
+}
+
+#product_wrapper.list .cc-product .compare_block{
+    float:right;
+}
+
+#product_wrapper.list .cc-product .cc-foot{
+    position:relative;
+}
+
+#product_wrapper.list .cc-product .cc-foot .compare_block{
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#product_wrapper.list .cc-product .cc-foot .compare_block .compare input{
+    margin-right:5px;
+    float:left
+}

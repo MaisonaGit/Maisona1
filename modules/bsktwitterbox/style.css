@@ -1,0 +1,50 @@
+#bsktwitterbox{
+    background-image: url(img/tweet.png);
+    background-repeat: no-repeat;
+    padding: 2px 0 2px 30px;
+    overflow-x: hidden;
+    cursor: default;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#bsktwitterbox ul{
+    max-width: 1000px;
+    margin: 0;
+    float: left;
+    padding: 0;
+    line-height: 20px;
+}
+
+#bsktwitterbox li{
+    font-family: psans, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    list-style: none;
+}
+
+#bsktwitterbox li p{
+    margin: 0;
+}
+
+#bsktwitterbox .arrows{
+    float: right;
+    padding-top: 3px;
+    line-height: 1;
+}
+#bsktwitterbox_left_arrow,
+#bsktwitterbox_right_arrow{
+    background-image: url(img/left_arrow.png);
+    width: 10px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+#bsktwitterbox_right_arrow{
+    background-image: url(img/right_arrow.png);
+    margin-left: 3px;
+}

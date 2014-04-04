@@ -1,0 +1,23 @@
+#permanent_links a{
+    color:#fff;
+}
+
+#permanent_links{
+    float:left;
+    margin:2px 0 0 20px;
+}
+
+#permanent_links a{
+    color:#fff;
+}
+
+#permanent_links .home,
+#permanent_links .logIn,
+#permanent_links .contact{
+    float:left;
+    margin:0 20px 0 0;
+}
+
+#permanent_links .contact{
+    margin:0;
+}

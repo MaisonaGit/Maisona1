@@ -1,0 +1,43 @@
+#my-account .myaccount_lnk_list{
+    margin:0 0 20px 0;
+    padding:0;
+}
+
+#my-account .myaccount_lnk_list li{
+    list-style-image: none;
+    list-style:none;
+    padding: 8px;
+}
+
+#my-account .myaccount_lnk_list li a{
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    font-size:15px;
+    position: relative;
+}
+
+
+#my-account .my_account_text{
+    padding: 5px 0 5px 20px;
+    margin-left:30px;
+    background: #ddd;
+    color: #444;
+    width: 250px;
+    display: inline-block;
+    -webkit-border-radius: 0px 8px 8px 0px;
+    -moz-border-radius: 0px 8px 8px 0px;
+    -o-border-radius: 0px 8px 8px 0px;
+    -ms-border-radius: 0px 8px 8px 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+#my-account .myaccount_lnk_list li a:hover .my_account_text{
+	background: #eee;
+}
+#my-account .myaccount_lnk_list li a img.icon{
+    position: absolute;
+    top: -8px;
+    left: 4px;
+    border: 0.3em solid #fff;
+    border-radius: 2em;
+    background:#fff;
+}

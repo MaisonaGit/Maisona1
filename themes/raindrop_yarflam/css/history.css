@@ -1,0 +1,57 @@
+#history #center_column h1{margin-top:20px}
+#history #center_column .title_block {
+	margin:20px 0;
+	padding:15px 20px;
+	background:#f5f5f5;
+}
+#history #center_column .title_block  input {
+	position: relative;
+   top: -8px;
+	float:right;
+}
+
+.info-order {
+	margin-bottom:20px;
+}
+.info-order p {padding-bottom:10px}
+.info-order p .icon {
+	position:relative;
+	top:2px;
+	left:0
+}
+
+#order-list {
+	margin-bottom:20px;
+	width:100%;
+	border:none;
+}
+#order-list  th {
+        color:#333;
+        padding: 8px;
+        line-height: 20px;
+        text-align: left;
+        vertical-align: top;
+        border-top: 1px solid #dddddd;
+}
+#order-list .history_link img{
+    vertical-align: top;
+}
+.adresses_bloc {margin-bottom:20px}
+.adresses_bloc  .item {margin-right:60px}
+
+.detail_step_by_step {width:100%}
+
+#order-detail-content table {width:100%}
+#order-detail-content table .order_qte_input {display:none}
+
+#sendOrderMessage {margin-bottom:20px}
+#sendOrderMessage p {padding-bottom:10px}
+
+#history .frame_secondary{
+    float:left;
+    margin:10px 0 0 15px;
+}
+
+#block-order-detail.hidden{
+    visibility:visible;
+}

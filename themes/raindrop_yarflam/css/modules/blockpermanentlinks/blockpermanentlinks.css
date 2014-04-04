@@ -1,0 +1,35 @@
+#permanent_links{
+    float:left;
+    margin:2px 0 0 20px;
+	padding-top: 10px;
+	font-family: 'Basic-Regular';
+	font-size:12px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+#permanent_links a{
+    color:#000;
+}
+
+#permanent_links .home,
+#permanent_links .logIn,
+#permanent_links .contact{
+	font-family: 'Basic-Regular;';
+	font-size:10px;
+    float:left;
+    margin:0 20px 0 0;
+	border-right: 2px solid #000;
+	height: 10em;
+	max-height:14px;
+	padding-right: 5px;
+}
+
+#permanent_links .contact{
+    margin:0;
+}
+
+@font-face {
+	font-family: 'Basic-Regular';
+	src: url(../fonts/Basic-Regular.ttf) format("truetype");
+}

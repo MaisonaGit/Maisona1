@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>hover_pl_taille</name>
+	<displayName><![CDATA[Affichage attributs hover]]></displayName>
+	<version><![CDATA[1]]></version>
+	<description><![CDATA[Affichage attributs sur le hover photo product list]]></description>
+	<author><![CDATA[Ether Cr&eacute;ation]]></author>
+	<tab><![CDATA[others]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

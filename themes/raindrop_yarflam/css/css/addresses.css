@@ -1,0 +1,116 @@
+div.addresses {
+    font-size:12px;
+}
+
+ul.address {
+   text-align: center;
+   width: 100%;
+}
+#address_delivery {}
+#address_invoice {margin-right:0}
+#delivery_address {margin-right:65px;}
+
+ul.address li {
+	padding:0 15px;
+	line-height:18px;
+	text-transform:uppercase
+}
+
+ul.address .address_alias {
+	font-weight: normal;
+	text-transform: none;
+}
+ul.address li.address_firstname,
+ul.address li.address_company {
+	margin-top:8px
+}
+
+.address_add {
+   padding:20px 0
+}
+.address_select {
+	border:1px solid #ccc;
+	margin-left: 10px;
+}
+.addressesAreEquals label {
+	margin-left: 5px;
+}
+
+.address_delivery label {
+    text-align: right;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.addressesAreEquals {
+    margin: 20px 0;
+}
+
+#address_invoice_form label{
+    text-align: right;
+    padding-top: 7px;
+    font-weight: normal;
+}
+
+.addressesAreEquals input {
+	float: none!important;
+}
+p.address_delivery, p.addressesAreEquals {
+	padding-bottom: 14px
+}
+/* PAGE ADRESSES ******************************************************************************* */
+.addresses ul.address {
+   margin-top: 10px;
+}
+.addresses ul.address.alternate_item,
+.addresses ul.address.last_item {margin-right:0}
+.addresses ul.address li {
+	padding:0 15px;
+	line-height:18px;
+	text-transform:uppercase
+}
+.addresses ul.address .address_update,
+.addresses ul.address .address_delete {
+    font-size:11px;
+   text-transform:none
+}
+
+.addresses ul.address .address_update{
+    float: left;
+}
+
+.addresses ul.address .address_delete{
+    margin-top: 12px;
+}
+
+ul.address  li{
+    list-style:none;
+    list-style-image: none;
+}
+
+ul.address  li.address_update {
+    margin-top:10px;
+}
+
+ul.address  li.address_delete{
+    float:right;
+}
+
+ul.address li.address_title {
+    padding:15px;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+ul.footer_links{
+    margin:0;
+}
+
+ul.footer_links li{
+    list-style:none;
+    list-style-image: none;
+}
+
+ul.footer_links li .icon{
+    top:-2px;
+}

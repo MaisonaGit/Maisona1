@@ -1,0 +1,48 @@
+#contact  h3 {
+        font-size:18px;
+        text-transform:uppercase;
+        margin-bottom: 30px;
+}
+#contact #center_column p {margin:0; padding:0 0 10px 0;}
+#contact #center_column p.desc_contact { margin-left:135px; }
+
+#contact p.text label,
+#contact p.select label,
+#contact p.select span,
+#contact p.textarea label {
+        display:inline-block;
+        padding:6px 15px;
+        width:100px;/* 180 */
+        font-size:12px;
+        text-align:right
+}
+#contact p.textarea label {vertical-align:top}
+#contact p.text input,
+#contact p.select input {
+        width:260px;/* 270 */
+        font-size: 12px;
+        color:#666
+}
+#contact p.select select {
+        margin-right:10px;
+        border:1px solid #ccc;
+        font-size: 12px;
+        color:#666
+}
+#contact p.textarea textarea {
+        height:80px;
+        width:270px;
+        border:1px solid #ccc;
+        font-size: 12px;
+        color:#666
+}
+#contact p.submit input {margin-left:135px;}
+
+#contact fieldset{
+    margin:0;
+    border:0;
+}
+
+#submitMessage{
+    width: 100%;
+}

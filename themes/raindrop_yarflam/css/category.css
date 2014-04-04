@@ -1,0 +1,130 @@
+.frame_wrap_content{
+    position: relative;
+}
+
+.frame_wrap_content .loading{
+    position: absolute;
+    top: 140px;
+    z-index: 100;
+    left: 46%;
+}
+
+#subcategories .subcat_img_holder {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#subcategories .subcat_img_title a {
+    color: #333;
+}
+
+#subcategories .subcat_img {
+    border: 1px solid #ccc;
+}
+
+ #subcategories .subcat_img_title {
+    padding-top: 10px;
+}
+
+h1{margin-bottom:10px;}
+
+.content_scene_cat {
+	padding:5px;
+	border:1px solid #ccc;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 1px 1px #e2e2e2;
+	-webkit-box-shadow: 0 1px 1px #e2e2e2;
+	box-shadow: 0 1px 1px #e2e2e2;
+}
+
+#category_image{
+    position:relative;
+    padding: 10px;
+}
+
+#category_image .cat_desc{
+    display:block;
+    position:relative;
+    top: 30%;
+    left: 5%;
+    color:#000;
+    font-size:12px;
+    width: 35%;
+    padding: 10px 20px;
+}
+
+.category-product-count {
+    color:#444;
+    float:left;
+    margin-top: 10px;
+}
+
+.sortPagiBar{
+    float:left;
+}
+
+#compare_form{
+    float:left;
+    margin: 3px 15px 0 30px;
+}
+
+#productsSortForm{
+    float:left;
+    margin:5px 0 0 2px;
+}
+
+#productsSortForm p label{
+    float: left;
+    margin: 5px 5px 0 0;
+    font-weight: normal;
+}
+
+.selectProductSort{
+    float: left;
+    font-size: 12px;
+    width: 140px;
+    
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    border-radius: 0px;
+}
+
+#bt_compare{
+    float:right;
+}
+/* ************************************************************************************************
+      SUB CATEGORIES
+************************************************************************************************ */
+#subcategories {margin-top:15px}
+#subcategories h3 {
+	padding:14px 12px;
+	font-size:13px;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 1px 0 #666;
+	background:url(../img/bg_table_th.png) repeat-x 0 0 #999
+}
+
+.inline_list {
+	list-style-type:none;
+	margin-top:10px;
+}
+.inline_list  li {
+	padding:10px 0;
+	border-bottom:1px dotted #ccc
+}
+.inline_list  li .img {
+	float:left;
+	margin-right:15px
+}
+.inline_list  li img {
+	border:1px solid #ccc
+}
+.inline_list  li .cat_name {
+	font-weight:bold;
+	font-size:13px
+}

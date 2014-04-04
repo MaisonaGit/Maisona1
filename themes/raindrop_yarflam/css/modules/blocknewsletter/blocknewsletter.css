@@ -1,0 +1,47 @@
+
+
+#newsletter_blue_block{
+    height: 100%;
+    margin-bottom: 0;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#newsletter_blue_block form{
+    margin: 0;
+}
+#newsletter_blue_block form > div{
+    text-align: center;
+}
+
+#newsletter_blue_block input[type=submit]{
+    background: url(img/mail.gif) no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    border: none;
+    margin-top: 2px;
+    float: left;
+}
+
+#newsletter_block_left p {
+	display:inline-block;
+	padding: 1px 0px 2px 5px;
+	width:150px;
+	font-family:'Basic-Regular';
+	font-size:10px;
+    float:right;
+	padding-right: 10px ;
+	padding-bottom: 10px;
+}
+
+#newsletter_blue_block .block_content .alert{
+    position: absolute;
+    z-index: 99;
+    left: 35px;
+    bottom: -10px;
+    width: 84%;
+}

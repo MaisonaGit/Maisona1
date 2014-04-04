@@ -1,0 +1,18 @@
+#reinsurance_block{
+    height: 114px;
+}
+
+#reinsurance_block > ul{
+    margin: 10px 0;
+    padding: 0;
+}
+
+#reinsurance_block > ul > li{
+    text-align: center;
+    list-style: none;
+}
+
+#reinsurance_block > ul > li > div{
+    text-transform: uppercase;
+    font-weight: bold;
+}

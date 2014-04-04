@@ -1,0 +1,151 @@
+#bsk_social_block{
+
+}
+
+#bsk_social_block li{
+    cursor:pointer;
+    margin: 0 20px 10px 0;
+    list-style: none;
+}
+
+#bsk_social_block li a {
+    height: 22px;
+    display:inline-block;
+}
+
+#bsk_social_block li.facebook a{
+    background:url(img/normal/Facebook.png) no-repeat;
+    width:11px;
+}
+
+#bsk_social_block li.facebook a:hover{
+    background:url(img/hover/Facebook.png) no-repeat;
+}
+
+#bsk_social_block li.twitter a{
+    background:url(img/normal/Twitter.png) no-repeat;
+    width:34px;
+}
+
+#bsk_social_block li.twitter a:hover{
+    background:url(img/hover/Twitter.png) no-repeat;
+}
+
+#bsk_social_block li.rss a{
+    background:url(img/normal/RSS.png) no-repeat;
+    width:22px;
+}
+
+#bsk_social_block li.rss a:hover{
+    background:url(img/hover/RSS.png) no-repeat;
+}
+
+#bsk_social_block li.youtube a{
+    background:url(img/normal/Youtube.png) no-repeat;
+    width:28px;
+}
+
+#bsk_social_block li.youtube a:hover{
+    background:url(img/hover/Youtube.png) no-repeat;
+}
+
+#bsk_social_block li.behance a{
+    background:url(img/normal/Behance.png) no-repeat;
+    width:37px;
+}
+
+#bsk_social_block li.behance a:hover{
+    background:url(img/hover/Behance.png) no-repeat;
+}
+
+#bsk_social_block li.deviantart a{
+    background:url(img/normal/Deviantart.png) no-repeat;
+    width:35px;
+}
+
+#bsk_social_block li.deviantart a:hover{
+    background:url(img/hover/Deviantart.png) no-repeat;
+}
+
+#bsk_social_block li.dribbble a{
+    background:url(img/normal/Dribbble.png) no-repeat;
+    width:22px;
+}
+
+#bsk_social_block li.dribbble a:hover{
+    background:url(img/hover/Dribbble.png) no-repeat;
+}
+
+#bsk_social_block li.forrst a{
+    background:url(img/normal/Forrst.png) no-repeat;
+    width:19px;
+}
+
+#bsk_social_block li.forrst a:hover{
+    background:url(img/hover/Forrst.png) no-repeat;
+}
+
+#bsk_social_block li.github a{
+    background:url(img/normal/Github.png) no-repeat;
+    width:12px;
+}
+
+#bsk_social_block li.github a:hover{
+    background:url(img/hover/Github.png) no-repeat;
+}
+
+#bsk_social_block li.picasa a{
+    background:url(img/normal/Picasa.png) no-repeat;
+    width:22px;
+}
+
+#bsk_social_block li.picasa a:hover{
+    background:url(img/hover/Picasa.png) no-repeat;
+}
+
+#bsk_social_block li.lastfm a{
+    background:url(img/normal/LastFM.png) no-repeat;
+    width:37px;
+}
+
+#bsk_social_block li.lastfm a:hover{
+    background:url(img/hover/LastFM.png) no-repeat;
+}
+
+#bsk_social_block li.tumblr a{
+    background:url(img/normal/Tumblr.png) no-repeat;
+    width:22px;
+}
+
+#bsk_social_block li.tumblr a:hover{
+    background:url(img/hover/Tumblr.png) no-repeat;
+}
+
+#bsk_social_block li.skype a{
+    background:url(img/normal/Skype.png) no-repeat;
+    width:22px;
+}
+
+#bsk_social_block li.skype a:hover{
+    background:url(img/hover/Skype.png) no-repeat;
+}
+
+#bsk_social_block li.linkedin a{
+    background:url(img/normal/LinkedIn.png) no-repeat;
+    width:24px;
+}
+
+#bsk_social_block li.linkedin:hover a{
+    background:url(img/hover/LinkedIn.png) no-repeat;
+}
+
+#bsk_share_product{
+    clear: both;
+    text-align: center;
+}
+
+.socialshare{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}

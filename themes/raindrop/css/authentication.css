@@ -1,0 +1,30 @@
+#account-creation_form .required {color:#222}
+#account-creation_form .required  sup {color:#990000}
+
+#account-creation_form span.form_info, #account-creation_form p.inline-infos {
+	display:block;
+	margin:5px 0 0 265px!important;
+	color:#666;
+}
+#account-creation_form .id_state, #account-creation_form .dni, #account-creation_form .postcode {
+	display: none;
+}
+#center_column #account-creation_form p.cart_navigation {
+	margin:20px 0;
+}
+#center_column #account-creation_form p.cart_navigation sup{
+    margin-right: 10px;
+}
+
+#center_column .customerprivacy p{
+    margin:0;
+}
+
+#center_column label[for=customer_privacy]{
+    margin-bottom:20px;
+}
+
+#account-creation_form .select select{
+    width: auto;
+    display: inline-block;
+}

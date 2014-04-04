@@ -1,0 +1,7 @@
+#bsk_advertising_block .adv img{
+    width: 100%;
+}
+
+#bsk_advertising_block .clearfix.clearRow{
+    margin-bottom: 20px;
+}

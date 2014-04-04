@@ -1,0 +1,94 @@
+/* block top user information */
+
+#header_user{
+    float:right;	
+}
+
+#header_right #header_user {
+    clear:both;
+    float: right;
+    margin-top:8px;
+}
+
+#header_user #header_nav {
+    list-style-type:none;
+    float:right;
+    margin: 0;
+    padding: 0;
+	font-family: 'Basic-Regular';
+	font-size:12px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+#header_user #header_nav li{
+    list-style: none;
+}
+
+/* cart */
+/*#shopping_cart a .hidden_item {
+    display:none;
+}*/
+
+
+.lt-ie6 #shopping_cart {width: 130px;}
+#shopping_cart a{
+    color: #000;
+    padding:12px 0 10px 43px;
+    background: url('../../../img/shopping_cart.png') no-repeat 0px 7px;
+
+    display:block;
+	font-family: 'Basic-Regular';
+	font-size:10px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+#shopping_cart a span{
+	font-family: 'Basic-Regular';
+	font-size:10px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+#shopping_cart a:hover span{text-decoration: none}
+#header_user #shopping_cart .ajax_cart_quantity { }
+#header_user #shopping_cart .ajax_cart_total {
+    color: #ff4848;
+}
+
+
+/* account */
+#header_user #your_account {display:none;}
+#header_user #your_account a { background-image: url('../../../img/my-account.gif') }
+
+/* user infos */ #pictureMonCompte {display:inline-block;float:left}
+#header_user_info {	
+	display:inline;
+    float:left;
+    margin: 2px 0 0 40px;
+    color:#fff;
+}
+#header_user_info a {
+    color:#000;
+    display:inline-block;
+    line-height: 11px;	border-right: 2px solid #000;	height: 10em;	max-height:14px;	padding-right: 10px;
+		font-family: 'Basic-Regular';
+	font-size:10px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+}
+#header_user_info a.account {
+    border: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+*:first-child+html #header_user_info a {line-height:14px;}
+#header_user_info a.login {}
+#header_user_info a.logout {}
+
+@font-face {
+	font-family: 'Basic-Regular';
+	src: url(../fonts/Basic-Regular.ttf) format("truetype");
+}

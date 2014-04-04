@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BitSHOK Gear</title>
+        {*css_files*}
+        {*js_files*}
+    </head>
+    <body data-modpath="{*mod_path*}">
+    <img id="loading" src="{*mod_path*}img/loading.gif" />
+    <div id="bskGear" class="container">
+        <form action="{*form_action*}" method="post" id="bskGearForm">
+        {*form_msg*}
+        <div class="row">
+            <div class="span3">
+                <figure id="logo">
+                    <img src="{*mod_path*}img/bskgear.png" />
+                </figure>
+                <ul class="nav nav-pills nav-stacked" id="settingsTabs">
+                    <li class="active"><a href="#general" data-toggle="pill">General</a></li>
+                    <li class="unsupported"><a href="#fonts" data-toggle="pill">Fonts</a></li>
+                    <li><a href="#background" data-toggle="pill">Background</a></li>
+                    <li class="unsupported"><a href="#layout" data-toggle="pill">Layout</a></li>
+                    <li><a href="#css" data-toggle="pill">Custom CSS</a></li>
+                </ul>
+                <div class="action_buttons clearfix">
+                    <input type="image" name="saveSubmit" value="Save" title="Save" id="btnSave" src="{*mod_path*}img/save.png" />
+                    <input type="image" name="resetSubmit" value="Reset" title="Reset" id="btnReset" src="{*mod_path*}img/reset.png" />
+                </div>
+            </div>
+
+            <div class="tab-content span9">
+                <div class="tab-pane active" id="general">
+                    <fieldset>
+                        <legend>General</legend>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Responsive Design</label>
+                            </div>
+                            <div class="span8">
+                                {*is_responsive*}
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Links color</label>
+                            </div>
+                            <div class="span8">
+                                <div class="color_picker_wrap" title="Normal">
+                                    <input type="text" class="color_picker" name="linksColor" value="{*linksColor*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Hover">
+                                    <input type="text" class="color_picker" name="linksColor_hover" value="{*linksColor_hover*}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Price color</label>
+                            </div>
+                            <div class="span8">
+                                <input type="text" class="color_picker" name="priceColor" value="{*priceColor*}" />
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Text color</label>
+                            </div>
+                            <div class="span8">
+                                <input type="text" class="color_picker" name="textColor" value="{*textColor*}" />
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Tab title color</label>
+                            </div>
+                            <div class="span8">
+                                <input type="text" class="color_picker" name="tabColor" value="{*tabColor*}" />
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Tab selected bottom border color</label>
+                            </div>
+                            <div class="span8">
+                                <input type="text" class="color_picker" name="tabSelectedColor" value="{*tabSelectedColor*}" />
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Product labels color</label>
+                                <span class="desc">reduction, new, online only, ...</span>
+                            </div>
+                            <div class="span8">
+                                <div class="color_picker_wrap" title="Text">
+                                    <input type="text" class="color_picker" name="productLabelsColor" value="{*productLabelsColor*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Background">
+                                    <input type="text" class="color_picker" name="productLabelsColor_bkg" value="{*productLabelsColor_bkg*}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Product grid description label color</label>
+                            </div>
+                            <div class="span8">
+                                <div class="color_picker_wrap" title="Text">
+                                    <input type="text" class="color_picker" name="productGridDescColor" value="{*productGridDescColor*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Background">
+                                    <input type="text" class="color_picker" name="productGridDescColor_bkg" value="{*productGridDescColor_bkg*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Left Border">
+                                    <input type="text" class="color_picker" name="productGridDescColor_lborder" value="{*productGridDescColor_lborder*}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Button small exclusive color</label>
+                            </div>
+                            <div class="span8">
+                                <div class="color_picker_wrap" title="Text">
+                                    <input type="text" class="color_picker" name="btnSmallExclusiveColor" value="{*btnSmallExclusiveColor*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Background">
+                                    <input type="text" class="color_picker" name="btnSmallExclusiveColor_bkg" value="{*btnSmallExclusiveColor_bkg*}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Button exclusive color</label>
+                            </div>
+                            <div class="span8">
+                                <div class="color_picker_wrap" title="Text">
+                                    <input type="text" class="color_picker" name="btnExclusiveColor" value="{*btnExclusiveColor*}" />
+                                </div>
+                                <div class="color_picker_wrap" title="Background">
+                                    <input type="text" class="color_picker" name="btnExclusiveColor_bkg" value="{*btnExclusiveColor_bkg*}" />
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="tab-pane" id="fonts">Fonts...</div>
+                <div class="tab-pane" id="background">
+                    <fieldset>
+                        <legend>Background</legend>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Color</label>
+                            </div>
+                            <div class="span8">
+                                <input type="text" class="color_picker" name="bkgColor" value="{*bkgColor*}" />
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Pattern</label>
+                                <span class="desc">patterns can be used only if there is no background image set</span>
+                            </div>
+                            <div class="span8">
+                                <input type="hidden" name="bkgPattern" id="bkgPattern" value="{*bkgPattern*}" />
+                                <div class="pattern" data-pattern="1" style="background-image: url({*img_dir*}patterns/1.png)"></div>
+                                <div class="pattern" data-pattern="2" style="background-image: url({*img_dir*}patterns/2.png)"></div>
+                                <div class="pattern" data-pattern="3" style="background-image: url({*img_dir*}patterns/3.png)"></div>
+                                <div class="pattern" data-pattern="4" style="background-image: url({*img_dir*}patterns/4.png)"></div>
+                                <div class="pattern" data-pattern="5" style="background-image: url({*img_dir*}patterns/5.png)"></div>
+                                <div class="pattern" data-pattern="6" style="background-image: url({*img_dir*}patterns/6.png)"></div>
+                                <div class="pattern" data-pattern="7" style="background-image: url({*img_dir*}patterns/7.png)"></div>
+                                <div class="pattern" data-pattern="8" style="background-image: url({*img_dir*}patterns/8.png)"></div>
+                                <div class="pattern" data-pattern="9" style="background-image: url({*img_dir*}patterns/9.png)"></div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Upload image</label>
+                                <span class="desc">save in order to set the uploaded image as the current background image</span>
+                            </div>
+                            <div class="span8">
+                                <div id="bkgImageUpload">
+                                    <button id="selectImage" class="btn btn-default">Select</button>
+                                    <span id="imageName"></span>
+                                    <button id="uploadImage" class="btn btn-special" disabled>Upload</button>
+                                    <img id="bkgLoading" src="{*mod_path*}img/load_circle.gif" />
+                                    <img id="bkgCheckmark" src="{*mod_path*}img/checkmark.png" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Current Image</label>
+                            </div>
+                            <div class="span8">
+                                <input type="hidden" name="bkgImage" id="bkgImage" value="{*bkgImage*}" />
+                                <div id="bkgImage_wrap">
+                                    <span class="no_img_set">No image is set. You can upload an image or use a pattern from above.</span>
+                                    <img id="curBkgImg" src="{*bkgImagePath*}" />
+                                    <img class="loading" src="{*mod_path*}img/load_circle.gif" />
+                                    <button id="deleteImage" class="btn btn-default">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Repeat</label>
+                            </div>
+                            <div class="span8">
+                                {*bkgRepeat*}
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Position</label>
+                            </div>
+                            <div class="span8">
+                                {*bkgPosition*}
+                            </div>
+                        </div>
+                        <div class="opt_row row-fluid">
+                            <div class="span4">
+                                <label>Fixed</label>
+                                <span class="desc">background remains fixed at scroll</span>
+                            </div>
+                            <div class="span8">
+                                {*bkgFixed*}
+                            </div>
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="tab-pane" id="layout">Layout...</div>
+                <div class="tab-pane" id="css">
+                    <fieldset>
+                        <legend>Custom CSS</legend>
+                        <textarea id="customcss" name="customcss">{*customcss*}</textarea>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+    </body>
+</html>

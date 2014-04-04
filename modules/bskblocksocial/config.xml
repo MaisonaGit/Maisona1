@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <module>
+            <name>bskblocksocial</name>
+            <displayName><![CDATA[BitSHOK Block social]]></displayName>
+            <version><![CDATA[1.2]]></version>
+            <description><![CDATA[Add your social networks]]></description>
+            <author><![CDATA[BitSHOK]]></author>
+            <tab><![CDATA[social_networks]]></tab>
+            <is_configurable>0</is_configurable>
+            <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+        </module>
